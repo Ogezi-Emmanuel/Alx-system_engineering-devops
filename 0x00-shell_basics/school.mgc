@@ -1,2 +1,2 @@
 #!/bin/bash
-0 string SCHOOL:mime School
+echo '0 string SCHOOL : mime School' > school.magic
