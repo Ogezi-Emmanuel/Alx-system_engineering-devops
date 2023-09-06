@@ -1,2 +1,2 @@
 #!/bin/bash
-seq a z | paste -d '\n' - a-z | grep -v "oo"
+echo {a..z}{a..} | tr ' ' '\n' | grep -v oo
